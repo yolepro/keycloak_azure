@@ -36,7 +36,7 @@ sudo apt-get -y install nginx
 
 # Install keycloak as a docker container
 #sudo docker run -d -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=pass -e PROXY_ADDRESS_FORWARDING=true jboss/keycloak
-sudo docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=pass$007 quay.io/keycloak/keycloak:20.0.1 start-dev
+sudo docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=pass quay.io/keycloak/keycloak:20.0.1 start-dev
 
 
 echo $(pwd)
