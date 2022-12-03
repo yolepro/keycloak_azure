@@ -215,7 +215,7 @@
                 "autoUpgradeMinorVersion": true,
                 "settings": {
                     "fileUris": [
-                        "https://raw.githubusercontent.com/aravindan-acct/keycloak_azure/main/scripts/customscript.sh"
+                        "https://raw.githubusercontent.com/yolepro/keycloak_azure/main/scripts/customscript.sh"
                     ]
                 },
                 "protectedSettings": {
